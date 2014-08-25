@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: CustomFont;
+    src: url(Planer_Reg.ttf);
+}
+.container-fluid{
+	margin:0px;
+	padding:0px;}
+	.boob{
+		width:100%;
+		}
+	
+
+
+.carousel .item {-webkit-transition: opacity 3s; -moz-transition: opacity 3s; -ms-transition: opacity 3s; -o-transition: opacity 3s; transition: opacity 3s;}
+.carousel .active.left {left:0;opacity:0;z-index:2;}
+.carousel .next {left:0;opacity:1;z-index:1;}
+#ass{
+	padding-top:15px;
+	height:80px;
+	
+}
+
+.navbar-default{
+	background-color:#FFF;
+	
+	transition: background-color 0.7s;}
+
+body{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	padding-top:70px;
+}
+.row{
+	margin: 0px;
+	
+	
+	}
+	#bs-example-navbar-collapse-1 ul li a:hover{
+		color:#CCC;}
+		
+
+
+#logo{
+	font-size:52px;
+	padding:10px;
+	color:#428bca;
+	font-family:"CustomFont";
+	transition:color 1s;
+	}
+	
+	#bs-example-navbar-collapse-1 ul li a{transition:color 0.7s; }
+	
+#box{
+	paddpxing-top:10px;
+	background-color:#428bca;
+}
+#imgBox{
+	top:-300px;
+	opacity:0;}
+#intro{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		color:#FFF;
+		letter-spacing:2px;
+		line-height:35px;
+		padding:10px;
+		font-size:22px;
+	}
+
+
+	#pic{
+		margin-left:50px;
+		
+		margin:0 auto;
+		}
+		
+		#imgBox{
+			margin-top:20px;
+			margin-bottom:20px;}
+	#my_btn{
+	
+	font-size:20px;
+	color:#428bca;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		margin-bottom:25px;
+		padding-left:20%;
+			padding-right:20%;
+transition: color 0.5s;
+		
+		}		#my_btn:hover{
+			color:#E54D12;
+			}
+
+		
+		
+		.chart{
+			margin:0 auto;
+		}
+		#btn_box{
+			text-align:center;
+			
+			}
+#what_box{
+	
+	margin-top:60px;}
+	
+	#skills_box{
+	
+	margin-top:60px;
+}
+#works_box{
+	margin-top:60px;
+	}
+#circle{
+	margin-top:40px;
+	}
+	#carousel-example-generic{
+		
+		margin-top:40px;
+		margin-bottom:40px;
+		}
+	.item img{
+		transition:opacity 0.5s;
+		opacity:0.8;}
+		
+		.item >img:hover{
+		opacity:1;}
+	
+	#what_heading{
+		font-size:62px;
+		letter-spacing:8px;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;}
+		
+		#do{
+			margin-top:60px;}
+			#do img{
+				opacity:0;}
+			
+		.width{
+			width:80%;
+			margin:0 auto;}
+			
+			
+			.page-header{
+				margin-top:10px;
+				margin-bottom:5px;}
+#skills_circle{margin-bottom:20px;
+margin-top:60px; }
+
+/*Fucking grid*/
+
+
+#contact_box{
+	
+	background-color:#1d2026;}
+
+
+.white{
+	color:#A8A8A8;}
+	
+	#form{
+		margin-top:40px;
+		padding-top:30px;
+		margin-bottom:20px;
+		
+		}
+		#form3{
+		margin-top:10px;
+		padding-top:10px;
+		margin-bottom:110px;
+		
+		
+		}
+		
+		#form2{
+		margin-top:20px;
+		padding-top:10px;
+		margin-bottom:40px;
+		
+		
+		}
+		#form_field{
+				
+				padding:10px;
+			}
+				#form_field1{
+			
+				padding:10px;
+			}
+.white1{
+
+	color:#FFF;}
+	
+.social{
+	margin-left:50px;
+	margin-right:50px;}
+
+@media (min-width: 768px) and (max-width: 979px) {  #intro{text-align:center} }
+
+
+@media (max-width: 767px) { #intro{text-align:center; font-size:18px;}
+#pic{
+		width:155px;
+		height:160px;
+		}
+		#what_box{
+	
+	margin-top:40px;}
+	
+	#what_heading{
+		font-size:52px;
+		letter-spacing:6px;
+		}
+		
+		
+		 }
+		 
+		 
+
+/* Landscape phones and down */
+@media (max-width: 480px) { #intro{text-align:center; font-size:14px;
+letter-spacing:1.5px;
+		line-height:25px;} #pic{
+		width:115px;
+		height:115px;
+		}
+		#what_box{
+	
+	margin-top:30px;
+	}
+	
+	#what_heading{
+		font-size:38px;
+		letter-spacing:4px;
+		font-family:"CustomFont";}}
